@@ -50,6 +50,12 @@ class UserController extends AbstractController
                         }else{
                             
                             var_dump($data['data']);
+
+        //                     // stores an attribute in the session for later reuse
+        // $this->session->set('attribute-name', 'attribute-value');
+
+        // // gets an attribute by name
+        // $foo = $this->session->get('foo');
                          
                             die();
                         }
