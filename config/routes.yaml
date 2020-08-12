@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+index:
+    path: /
+    controller: App\Controller\TestController::index
+
+
+loginForm:
+    path: /verify
+    controller: App\Controller\UserController::handleUser
+    methods: POST
