@@ -61,6 +61,7 @@ main .form form .salarie input::placeholder{
     font-size:20px;
 }
 
+
 main .form form input[type="checkbox"]{
     width:20px;
 }
@@ -92,4 +93,14 @@ main .form form .button_for_s{
 
 #choix{
     display:none;
+}
+
+
+/* for the JS */
+.text{
+    color:white;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: Bold;
+    margin-top: 100px;
 }

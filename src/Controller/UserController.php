@@ -9,6 +9,8 @@ use Symfony\Component\HttpFoundation\Request;
 
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
+use Symfony\Component\HttpFoundation\Session\Session;
+
 use App\Entity\ResponsableCompte;
 
 use App\Entity\Employes;
@@ -87,18 +89,23 @@ class UserController extends AbstractController
                                     ])->getIdAgence()
                                 ])->getAgence();
 
+                                $session = new Session();
+                                $session->start();
+
+                                //set the session for the respo 
+                                $session->set("idEmploye",$id_employe);
 
                                 //set the session for the name of the agence
-                                $this->session->set("nomAgence",$nom_agence);
+                                $session->set("nomAgence",$nom_agence);
                                 
                                 //set the session for the id of the agence 
-                                $this->session->set("idAgence",$id_agences);
+                                $session->set("idAgence",$id_agences);
 
                                 //session for the matricule 
-                                $this->session->set("matricule",$matricule);
+                                $session->set("matricule",$matricule);
 
                                 //session for the name of the employee
-                                $this->session->set("nomComplet",$nomComplet);
+                                $session->set("nomComplet",$nomComplet);
 
                                 return $this->redirectToRoute("cniPage");
                         }

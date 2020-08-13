@@ -13,11 +13,14 @@ cniPage:
     path: /admin/cni.html
     controller : App\Controller\PagesController::getPageCni
 
-    
+
 pageInsertSalarie:
     path: /clients/salarie.html
     controller: App\Controller\PagesController::getPageInsertCS
 
+Deconnex:
+    path: /logout
+    controller: App\Controller\PagesController::logout
 
 
 # all post routes 
@@ -25,4 +28,11 @@ loginForm:
     path: /verify
     controller: App\Controller\UserController::handleUser
     methods: POST
+
+
+insertSalarie:
+    path: /insertSalarie
+    controller: App\Controller\ClientsController::insertCSalarie
+    methods: POST
+
 
