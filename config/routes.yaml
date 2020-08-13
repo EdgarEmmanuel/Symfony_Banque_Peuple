@@ -2,13 +2,27 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+# all get routes
 
 index:
     path: /
     controller: App\Controller\TestController::index
 
 
+cniPage:
+    path: /admin/cni.html
+    controller : App\Controller\PagesController::getPageCni
+
+    
+pageInsertSalarie:
+    path: /clients/salarie.html
+    controller: App\Controller\PagesController::getPageInsertCS
+
+
+
+# all post routes 
 loginForm:
     path: /verify
     controller: App\Controller\UserController::handleUser
     methods: POST
+

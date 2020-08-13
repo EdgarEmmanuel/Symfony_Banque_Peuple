@@ -11,6 +11,10 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 use App\Entity\ResponsableCompte;
 
+use App\Entity\Employes;
+
+use App\Entity\Agences;
+
 use Doctrine\ORM\EntityManagerInterface;
 
 class UserController extends AbstractController
@@ -18,11 +22,14 @@ class UserController extends AbstractController
     private $em;
     private $session;
     private $ResponsableCompteRepository;
+    private $employes;
+    private $agenceEntity;
 
     public function __construct(EntityManagerInterface $entity,SessionInterface $session){
         $this->em = $entity;
         $this->ResponsableCompteRepository = $this->em->getRepository(ResponsableCompte::class);
-
+        $this->employes = $this->em->getRepository(Employes::class);
+        $this->agenceEntity = $this->em->getRepository(Agences::class);
         $this->session=$session;
     }
 
@@ -38,7 +45,7 @@ class UserController extends AbstractController
                         //get the password
                         $password = $req->request->get("password");
 
-                        $data['data'] = $this->ResponsableCompteRepository->findOneBy([
+                        $data = $this->ResponsableCompteRepository->findOneBy([
                             'login' => $login,
                             'password' => $password
                         ]);
@@ -46,18 +53,54 @@ class UserController extends AbstractController
                         $emp = new ResponsableCompte();
 
                         if($data==null){
-                        return $this->redirectToRoute('index');
+                            return $this->redirectToRoute('index');
                         }else{
-                            
-                            var_dump($data['data']);
+                                //get the  matricule
+                                $matricule = $this->ResponsableCompteRepository->findOneBy([
+                                    'login' => $login,
+                                    'password' => $password
+                                ])->getMatricule();
 
-        //                     // stores an attribute in the session for later reuse
-        // $this->session->set('attribute-name', 'attribute-value');
+                                //get the id of the employe 
+                                $id_employe = $this->ResponsableCompteRepository->findOneBy([
+                                    'login' => $login,
+                                    'password' => $password
+                                ])->getIdEmploye();
+                                
+                                //set the complete name of the employe by  his ID
+                                $nomComplet =$this->employes->findOneBy([
+                                    'id' => $id_employe
+                                ])->getNom() ." ".$this->employes->findOneBy([
+                                    'id' => $id_employe
+                                ])->getPrenom();
 
-        // // gets an attribute by name
-        // $foo = $this->session->get('foo');
-                         
-                            die();
+
+                                $id_agences =$this->agenceEntity->findOneBy([
+                                    'id' =>  $this->employes->findOneBy([
+                                        'id' => $id_employe
+                                    ])->getIdAgence()
+                                ])->getId();
+
+                                $nom_agence = $this->agenceEntity->findOneBy([
+                                    'id' =>  $this->employes->findOneBy([
+                                        'id' => $id_employe
+                                    ])->getIdAgence()
+                                ])->getAgence();
+
+
+                                //set the session for the name of the agence
+                                $this->session->set("nomAgence",$nom_agence);
+                                
+                                //set the session for the id of the agence 
+                                $this->session->set("idAgence",$id_agences);
+
+                                //session for the matricule 
+                                $this->session->set("matricule",$matricule);
+
+                                //session for the name of the employee
+                                $this->session->set("nomComplet",$nomComplet);
+
+                                return $this->redirectToRoute("cniPage");
                         }
             break;
 
