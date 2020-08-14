@@ -18,6 +18,16 @@ pageInsertSalarie:
     path: /clients/salarie.html
     controller: App\Controller\PagesController::getPageInsertCS
 
+    
+pageInsertIndependant:
+    path: /clients/independant.html 
+    controller: App\Controller\PagesController::getPageIndependant
+
+
+pageInsertMoral:
+    path: /clients/moral.html
+    controller: App\Controller\PagesController::getPageMoral
+
 Deconnex:
     path: /logout
     controller: App\Controller\PagesController::logout

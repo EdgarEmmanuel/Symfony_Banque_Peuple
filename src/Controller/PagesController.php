@@ -25,6 +25,16 @@ class PagesController extends AbstractController
         return $this->render('admin/cni.html.twig');
     }
 
+    public function getPageIndependant(){
+        $donnees["matricule"] = "CM4";
+        return $this->render("clients/cNSalarie.html.twig",$donnees);
+    }
+
+    public function getPageMoral(){
+        $donnees["matriculeMoral"] = "CM4";
+        return $this->render("clients/cMoral.html.twig",$donnees);
+    }
+
     public function logout(){
         return $this->render("test/index.html.twig");
     }
