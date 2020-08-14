@@ -18,7 +18,7 @@ pageInsertSalarie:
     path: /clients/salarie.html
     controller: App\Controller\PagesController::getPageInsertCS
 
-    
+
 pageInsertIndependant:
     path: /clients/independant.html 
     controller: App\Controller\PagesController::getPageIndependant
@@ -44,5 +44,9 @@ insertSalarie:
     path: /insertSalarie
     controller: App\Controller\ClientsController::insertCSalarie
     methods: POST
+
+insertMoral:
+    path: /pageInsertMoral
+    controller: App\Controller\ClientsController::insertCMoral
 
 

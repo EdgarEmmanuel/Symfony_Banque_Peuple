@@ -19,6 +19,43 @@ class PagesController extends AbstractController
         $this->enti = $entity;
         $this->clients = $this->enti->getRepository(Clients::class);
     }
+
+    public function getMatricule($params){
+        switch($params){
+            case "I":
+                $data= $this->enti
+                ->createQuery("SELECT count(ci.id) as num from App\Entity\Clients ci where substring(ci.matricule,1,3)='BCI' ")
+                ->getResult();
+
+                foreach($data as $d){
+                    $matricule = "BCI".((int)$d["num"]+1);
+                }
+            break;
+            case "S" : 
+                //query from the database 
+                $data = $this->enti
+                ->createQuery("SELECT count(cl.id) as num from App\Entity\Clients cl where substring(cl.matricule,1,3)='BPS'")
+                ->getResult();
+
+                //set the matricule 
+                foreach($data as $d){
+                    $matricule = "BPS".((int)$d["num"] + 1);
+                }
+            break;
+
+            case "M" : 
+                $data = $this->enti
+                ->createQuery("SELECT count(cm.id) as num from App\Entity\Clients cm where substring(cm.matricule,1,3)='BCM' ")
+                ->getResult();
+        
+                foreach($data as $d){
+                    $matricule = "BCM".((int)$d["num"] +1);
+                }
+            break;
+
+        }
+        return $matricule;
+    }
     
     public function getPageCni()
     {
@@ -26,12 +63,14 @@ class PagesController extends AbstractController
     }
 
     public function getPageIndependant(){
-        $donnees["matricule"] = "CM4";
+        $donnees["matricule"] = $this->getMatricule("I");
+        var_dump($donnees);
+        die();
         return $this->render("clients/cNSalarie.html.twig",$donnees);
     }
 
     public function getPageMoral(){
-        $donnees["matriculeMoral"] = "CM4";
+        $donnees["matriculeMoral"] = $this->getMatricule("M");
         return $this->render("clients/cMoral.html.twig",$donnees);
     }
 
@@ -40,20 +79,8 @@ class PagesController extends AbstractController
     }
 
     public function getPageInsertCS(){
-        //the page for insert client salarie
-
-        //query from the database 
-        $data = $this->enti
-            ->createQuery("SELECT count(cl.id) as num from App\Entity\Clients cl where substring(cl.matricule,1,3)='BPS'")
-            ->getResult();
-
-            //set the matricule 
-            foreach($data as $d){
-                $matricule = "BPS".((int)$d["num"] + 1);
-            }
-
             //put in the array to send 
-            $donnees["matricules"] = $matricule;
+            $donnees["matricules"] = $this->getMatricule("S");
           
 
         return $this->render("clients/cSalarie.html.twig",$donnees);
