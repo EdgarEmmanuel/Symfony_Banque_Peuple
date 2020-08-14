@@ -48,5 +48,11 @@ insertSalarie:
 insertMoral:
     path: /pageInsertMoral
     controller: App\Controller\ClientsController::insertCMoral
+    methods: POST
+
+insertIndependant:
+    path: /insertIndependant
+    controller: App\Controller\ClientsController::insertCIndependant
+    methods: POST
 
 

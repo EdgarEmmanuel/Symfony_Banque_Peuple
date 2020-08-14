@@ -12,9 +12,7 @@ use App\Entity\ClientSalarie;
 
 use App\Entity\ClientMoral;
 
-use Symfony\Component\HttpFoundation\Session\SessionInterface;
-
-use Symfony\Component\HttpFoundation\Session\Session;
+use App\Entity\ClientIndependant;
 
 use Doctrine\ORM\EntityManagerInterface;
 
@@ -77,6 +75,37 @@ class ClientsController extends AbstractController
             return $this->redirectToRoute('cniPage',$data);
         }
 
+    }
+
+    public function insertCIndependant(Request $request){
+
+        var_dump($request);
+        die();
+
+        $client_independant = new ClientIndependant();
+
+        $client_independant->setIdClient($this->insertFirstINClient($request->request->get("matricule"),
+        $request->request->get("email"),$request->request->get("telephone")));
+
+        $client_independant->setNom($request->request->get(""));
+
+        $client_independant->setPrenom($request->request->get(""));
+
+        $client_independant->setCni($request->request->get(""));
+
+        $client_independant->setActivite($request->request->get(""));
+
+        $client_independant->setAdresse($request->request->get(""));
+
+        $this->f_entity->persist($client_independant);
+        $this->f_entity->flush();
+
+        if($client_independant->getId()!=0){
+            $data["message"]="INSERTION REUSSIE AVEC SUCCESS";
+            return $this->render('admin/cni.html.twig',$data);
+        }else{
+            return $this->redirectToRoute("insertIndependant");
+        }
     }
 
 

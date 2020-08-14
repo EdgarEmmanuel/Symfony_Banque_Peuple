@@ -63,9 +63,7 @@ class PagesController extends AbstractController
     }
 
     public function getPageIndependant(){
-        $donnees["matricule"] = $this->getMatricule("I");
-        var_dump($donnees);
-        die();
+        $donnees["matricule_inde"] = $this->getMatricule("I");
         return $this->render("clients/cNSalarie.html.twig",$donnees);
     }
 
@@ -74,6 +72,7 @@ class PagesController extends AbstractController
         return $this->render("clients/cMoral.html.twig",$donnees);
     }
 
+    
     public function logout(){
         return $this->render("test/index.html.twig");
     }
@@ -82,7 +81,6 @@ class PagesController extends AbstractController
             //put in the array to send 
             $donnees["matricules"] = $this->getMatricule("S");
           
-
         return $this->render("clients/cSalarie.html.twig",$donnees);
     }
 }
