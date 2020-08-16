@@ -1,0 +1,936 @@
+[2020-08-16 13:51:32.046] [exthost] [info] extension host started
+[2020-08-16 13:51:32.116] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 13:51:32.117] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2020-08-16 13:51:32.121] [exthost] [info] ExtensionService#_doActivateExtension pucelle.vscode-css-navigation {"startup":false,"extensionId":{"value":"pucelle.vscode-css-navigation","_lower":"pucelle.vscode-css-navigation"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 13:51:32.121] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pucelle.vscode-css-navigation-1.9.0/client/out/extension
+[2020-08-16 13:51:32.157] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-08-16 13:51:32.157] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-08-16 13:51:32.160] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-08-16 13:51:32.160] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-08-16 13:51:32.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 13:51:32.179] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-08-16 13:51:32.216] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-08-16 13:51:32.216] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-08-16 13:51:32.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-08-16 13:51:32.228] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-08-16 13:51:32.231] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-08-16 13:51:32.231] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-08-16 13:51:32.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-08-16 13:51:32.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-08-16 13:51:32.242] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2020-08-16 13:51:32.242] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2020-08-16 13:51:32.244] [exthost] [info] ExtensionService#_doActivateExtension chenxsan.vscode-standardjs {"startup":true,"extensionId":{"value":"chenxsan.vscode-standardjs","_lower":"chenxsan.vscode-standardjs"},"activationEvent":"*"}
+[2020-08-16 13:51:32.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/chenxsan.vscode-standardjs-1.3.0/client/out/extension
+[2020-08-16 13:51:32.276] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-08-16 13:51:32.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.path-intellisense-2.2.1/out/extension.js
+[2020-08-16 13:51:32.292] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-08-16 13:51:32.292] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-08-16 13:51:32.305] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-08-16 13:51:32.306] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/dbaeumer.vscode-eslint-2.1.8/client/out/extension
+[2020-08-16 13:51:32.319] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-08-16 13:51:32.319] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/formulahendry.auto-close-tag-0.5.8/out/src/extension
+[2020-08-16 13:51:32.320] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer {"startup":true,"extensionId":{"value":"hbenl.vscode-test-explorer","_lower":"hbenl.vscode-test-explorer"},"activationEvent":"*"}
+[2020-08-16 13:51:32.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/hbenl.vscode-test-explorer-2.19.1/out/main.js
+[2020-08-16 13:51:32.341] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"extensionId":{"value":"ionutvmi.path-autocomplete","_lower":"ionutvmi.path-autocomplete"},"activationEvent":"*"}
+[2020-08-16 13:51:32.341] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ionutvmi.path-autocomplete-1.15.0/out/src/extension
+[2020-08-16 13:51:32.350] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language {"startup":true,"extensionId":{"value":"mblode.twig-language","_lower":"mblode.twig-language"},"activationEvent":"*"}
+[2020-08-16 13:51:32.350] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mblode.twig-language-0.9.1/extension/index
+[2020-08-16 13:51:32.365] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2020-08-16 13:51:32.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pkief.material-icon-theme-4.2.0/dist/extension
+[2020-08-16 13:51:32.377] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-08-16 13:51:32.377] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-08-16 13:51:32.665] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-08-16 13:51:32.665] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/streetsidesoftware.code-spell-checker-1.9.0/dist/extension
+[2020-08-16 13:51:32.702] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2020-08-16 13:51:32.702] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tabnine.tabnine-vscode-2.9.2/out/extension
+[2020-08-16 13:51:32.715] [exthost] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"extensionId":{"value":"vortizhe.simple-ruby-erb","_lower":"vortizhe.simple-ruby-erb"},"activationEvent":"*"}
+[2020-08-16 13:51:32.715] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2020-08-16 13:51:32.716] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2020-08-16 13:51:32.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2020-08-16 13:51:33.315] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 13:51:33.315] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-08-16 13:51:33.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:51:33.380] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-08-16 13:51:33.386] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:51:33.386] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-08-16 13:51:33.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:51:33.445] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-08-16 13:51:33.495] [exthost] [info] eager extensions activated
+[2020-08-16 13:52:01.961] [exthost] [info] extension host started
+[2020-08-16 13:52:02.012] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 13:52:02.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2020-08-16 13:52:02.015] [exthost] [info] ExtensionService#_doActivateExtension pucelle.vscode-css-navigation {"startup":false,"extensionId":{"value":"pucelle.vscode-css-navigation","_lower":"pucelle.vscode-css-navigation"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 13:52:02.015] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pucelle.vscode-css-navigation-1.9.0/client/out/extension
+[2020-08-16 13:52:02.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-08-16 13:52:02.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-08-16 13:52:02.044] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-08-16 13:52:02.044] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-08-16 13:52:02.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 13:52:02.051] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-08-16 13:52:02.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-08-16 13:52:02.064] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-08-16 13:52:02.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-08-16 13:52:02.068] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-08-16 13:52:02.071] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-08-16 13:52:02.071] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-08-16 13:52:02.076] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-08-16 13:52:02.076] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-08-16 13:52:02.078] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2020-08-16 13:52:02.078] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2020-08-16 13:52:02.080] [exthost] [info] ExtensionService#_doActivateExtension chenxsan.vscode-standardjs {"startup":true,"extensionId":{"value":"chenxsan.vscode-standardjs","_lower":"chenxsan.vscode-standardjs"},"activationEvent":"*"}
+[2020-08-16 13:52:02.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/chenxsan.vscode-standardjs-1.3.0/client/out/extension
+[2020-08-16 13:52:02.101] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-08-16 13:52:02.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.path-intellisense-2.2.1/out/extension.js
+[2020-08-16 13:52:02.114] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-08-16 13:52:02.114] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-08-16 13:52:02.125] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-08-16 13:52:02.125] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/dbaeumer.vscode-eslint-2.1.8/client/out/extension
+[2020-08-16 13:52:02.129] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-08-16 13:52:02.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/formulahendry.auto-close-tag-0.5.8/out/src/extension
+[2020-08-16 13:52:02.130] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer {"startup":true,"extensionId":{"value":"hbenl.vscode-test-explorer","_lower":"hbenl.vscode-test-explorer"},"activationEvent":"*"}
+[2020-08-16 13:52:02.130] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/hbenl.vscode-test-explorer-2.19.1/out/main.js
+[2020-08-16 13:52:02.141] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"extensionId":{"value":"ionutvmi.path-autocomplete","_lower":"ionutvmi.path-autocomplete"},"activationEvent":"*"}
+[2020-08-16 13:52:02.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ionutvmi.path-autocomplete-1.15.0/out/src/extension
+[2020-08-16 13:52:02.146] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language {"startup":true,"extensionId":{"value":"mblode.twig-language","_lower":"mblode.twig-language"},"activationEvent":"*"}
+[2020-08-16 13:52:02.146] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mblode.twig-language-0.9.1/extension/index
+[2020-08-16 13:52:02.150] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2020-08-16 13:52:02.151] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pkief.material-icon-theme-4.2.0/dist/extension
+[2020-08-16 13:52:02.155] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-08-16 13:52:02.155] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-08-16 13:52:02.422] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-08-16 13:52:02.422] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/streetsidesoftware.code-spell-checker-1.9.0/dist/extension
+[2020-08-16 13:52:02.434] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2020-08-16 13:52:02.435] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tabnine.tabnine-vscode-2.9.2/out/extension
+[2020-08-16 13:52:02.446] [exthost] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"extensionId":{"value":"vortizhe.simple-ruby-erb","_lower":"vortizhe.simple-ruby-erb"},"activationEvent":"*"}
+[2020-08-16 13:52:02.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2020-08-16 13:52:02.446] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2020-08-16 13:52:02.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2020-08-16 13:52:02.655] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-08-16 13:52:02.655] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2020-08-16 13:52:03.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:52:03.079] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-08-16 13:52:03.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:52:03.093] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-08-16 13:52:03.105] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 13:52:03.105] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-08-16 13:52:03.291] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 13:52:03.291] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-08-16 13:52:03.312] [exthost] [info] eager extensions activated
+[2020-08-16 13:52:09.267] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.267] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0/out/src/extension
+[2020-08-16 13:52:09.323] [exthost] [info] ExtensionService#_doActivateExtension clinyong.vscode-css-modules {"startup":false,"extensionId":{"value":"clinyong.vscode-css-modules","_lower":"clinyong.vscode-css-modules"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.323] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/clinyong.vscode-css-modules-0.2.3/out/src/extension
+[2020-08-16 13:52:09.370] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.370] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-08-16 13:52:09.493] [exthost] [info] ExtensionService#_doActivateExtension mgmcdermott.vscode-language-babel {"startup":false,"extensionId":{"value":"mgmcdermott.vscode-language-babel","_lower":"mgmcdermott.vscode-language-babel"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.493] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mgmcdermott.vscode-language-babel-0.0.29/dist/extension
+[2020-08-16 13:52:09.495] [exthost] [info] ExtensionService#_doActivateExtension paulmolluzzo.convert-css-in-js {"startup":false,"extensionId":{"value":"paulmolluzzo.convert-css-in-js","_lower":"paulmolluzzo.convert-css-in-js"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js
+[2020-08-16 13:52:09.502] [exthost] [info] ExtensionService#_doActivateExtension tiansin.php-class-helper {"startup":false,"extensionId":{"value":"tiansin.php-class-helper","_lower":"tiansin.php-class-helper"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.502] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tiansin.php-class-helper-0.2.1/out/extension
+[2020-08-16 13:52:09.529] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:javascript"}
+[2020-08-16 13:52:09.529] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.10/dist/intellicode
+[2020-08-16 13:53:45.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 13:53:45.221] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-08-16 13:53:45.236] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"extensionId":{"value":"Angular.ng-template","_lower":"angular.ng-template"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 13:53:45.236] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/client
+[2020-08-16 13:53:45.306] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport {"startup":false,"extensionId":{"value":"steoates.autoimport","_lower":"steoates.autoimport"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 13:53:45.306] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/steoates.autoimport-1.5.3/out/src/extension
+[2020-08-16 13:54:01.849] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"extensionId":{"value":"batisteo.vscode-django","_lower":"batisteo.vscode-django"},"activationEvent":"onLanguage:django-txt"}
+[2020-08-16 13:54:01.849] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/batisteo.vscode-django-0.20.0/out/extension
+[2020-08-16 13:56:16.044] [exthost] [error] [paulmolluzzo.convert-css-in-js] provider FAILED
+[2020-08-16 13:56:16.049] [exthost] [error] TypeError: Cannot convert undefined or null to object
+    at Function.from (<anonymous>)
+    at Object.getPropertyValueCompletions (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/autocomplete.js:77:36)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js:60:39)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 13:56:25.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-08-16 13:56:25.265] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2020-08-16 13:56:25.321] [exthost] [info] ExtensionService#_doActivateExtension mohd-akram.vscode-html-format {"startup":false,"extensionId":{"value":"mohd-akram.vscode-html-format","_lower":"mohd-akram.vscode-html-format"},"activationEvent":"onLanguage:html"}
+[2020-08-16 13:56:25.321] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mohd-akram.vscode-html-format-0.0.4/out/extension
+[2020-08-16 13:56:25.324] [exthost] [info] ExtensionService#_doActivateExtension tht13.html-preview-vscode {"startup":false,"extensionId":{"value":"tht13.html-preview-vscode","_lower":"tht13.html-preview-vscode"},"activationEvent":"onLanguage:html"}
+[2020-08-16 13:56:25.324] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tht13.html-preview-vscode-0.2.5/out/extension.js
+[2020-08-16 13:57:17.050] [exthost] [error] [paulmolluzzo.convert-css-in-js] provider FAILED
+[2020-08-16 13:57:17.055] [exthost] [error] TypeError: Cannot convert undefined or null to object
+    at Function.from (<anonymous>)
+    at Object.getPropertyValueCompletions (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/autocomplete.js:77:36)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js:60:39)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 13:57:25.357] [exthost] [error] [paulmolluzzo.convert-css-in-js] provider FAILED
+[2020-08-16 13:57:25.358] [exthost] [error] TypeError: Cannot convert undefined or null to object
+    at Function.from (<anonymous>)
+    at Object.getPropertyValueCompletions (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/autocomplete.js:77:36)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js:60:39)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 13:58:19.159] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onLanguage:json"}
+[2020-08-16 13:58:19.159] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-08-16 13:58:19.540] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script {"startup":false,"extensionId":{"value":"eg2.vscode-npm-script","_lower":"eg2.vscode-npm-script"},"activationEvent":"onLanguage:json"}
+[2020-08-16 13:58:19.540] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/eg2.vscode-npm-script-0.3.13/dist/extension
+[2020-08-16 13:58:19.546] [exthost] [info] ExtensionService#_doActivateExtension mongodb.mongodb-vscode {"startup":false,"extensionId":{"value":"mongodb.mongodb-vscode","_lower":"mongodb.mongodb-vscode"},"activationEvent":"onLanguage:json"}
+[2020-08-16 13:58:19.546] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mongodb.mongodb-vscode-0.1.1/dist/extension.js
+[2020-08-16 14:13:20.581] [exthost] [error] [paulmolluzzo.convert-css-in-js] provider FAILED
+[2020-08-16 14:13:20.584] [exthost] [error] TypeError: Cannot convert undefined or null to object
+    at Function.from (<anonymous>)
+    at Object.getPropertyValueCompletions (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/autocomplete.js:77:36)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js:60:39)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 14:13:21.747] [exthost] [error] [paulmolluzzo.convert-css-in-js] provider FAILED
+[2020-08-16 14:13:21.749] [exthost] [error] TypeError: Cannot convert undefined or null to object
+    at Function.from (<anonymous>)
+    at Object.getPropertyValueCompletions (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/autocomplete.js:77:36)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js:60:39)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 15:50:31.747] [exthost] [info] extension host started
+[2020-08-16 15:50:31.798] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 15:50:31.798] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2020-08-16 15:50:31.818] [exthost] [info] ExtensionService#_doActivateExtension pucelle.vscode-css-navigation {"startup":false,"extensionId":{"value":"pucelle.vscode-css-navigation","_lower":"pucelle.vscode-css-navigation"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 15:50:31.818] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pucelle.vscode-css-navigation-1.9.0/client/out/extension
+[2020-08-16 15:50:31.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-08-16 15:50:31.879] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-08-16 15:50:31.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-08-16 15:50:31.882] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-08-16 15:50:31.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 15:50:31.892] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-08-16 15:50:31.911] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-08-16 15:50:31.911] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-08-16 15:50:31.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-08-16 15:50:31.918] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-08-16 15:50:31.920] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-08-16 15:50:31.921] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-08-16 15:50:31.926] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-08-16 15:50:31.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-08-16 15:50:31.927] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2020-08-16 15:50:31.927] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2020-08-16 15:50:31.929] [exthost] [info] ExtensionService#_doActivateExtension chenxsan.vscode-standardjs {"startup":true,"extensionId":{"value":"chenxsan.vscode-standardjs","_lower":"chenxsan.vscode-standardjs"},"activationEvent":"*"}
+[2020-08-16 15:50:31.929] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/chenxsan.vscode-standardjs-1.3.0/client/out/extension
+[2020-08-16 15:50:31.966] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-08-16 15:50:31.966] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.path-intellisense-2.2.1/out/extension.js
+[2020-08-16 15:50:31.990] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-08-16 15:50:31.990] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-08-16 15:50:32.009] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-08-16 15:50:32.009] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/dbaeumer.vscode-eslint-2.1.8/client/out/extension
+[2020-08-16 15:50:32.017] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-08-16 15:50:32.017] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/formulahendry.auto-close-tag-0.5.8/out/src/extension
+[2020-08-16 15:50:32.023] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer {"startup":true,"extensionId":{"value":"hbenl.vscode-test-explorer","_lower":"hbenl.vscode-test-explorer"},"activationEvent":"*"}
+[2020-08-16 15:50:32.023] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/hbenl.vscode-test-explorer-2.19.1/out/main.js
+[2020-08-16 15:50:32.070] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"extensionId":{"value":"ionutvmi.path-autocomplete","_lower":"ionutvmi.path-autocomplete"},"activationEvent":"*"}
+[2020-08-16 15:50:32.070] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ionutvmi.path-autocomplete-1.15.0/out/src/extension
+[2020-08-16 15:50:32.097] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language {"startup":true,"extensionId":{"value":"mblode.twig-language","_lower":"mblode.twig-language"},"activationEvent":"*"}
+[2020-08-16 15:50:32.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mblode.twig-language-0.9.1/extension/index
+[2020-08-16 15:50:32.112] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2020-08-16 15:50:32.112] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pkief.material-icon-theme-4.2.0/dist/extension
+[2020-08-16 15:50:32.120] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-08-16 15:50:32.120] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-08-16 15:50:32.785] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-08-16 15:50:32.785] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/streetsidesoftware.code-spell-checker-1.9.0/dist/extension
+[2020-08-16 15:50:32.800] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2020-08-16 15:50:32.800] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tabnine.tabnine-vscode-2.9.2/out/extension
+[2020-08-16 15:50:32.817] [exthost] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"extensionId":{"value":"vortizhe.simple-ruby-erb","_lower":"vortizhe.simple-ruby-erb"},"activationEvent":"*"}
+[2020-08-16 15:50:32.818] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2020-08-16 15:50:32.819] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2020-08-16 15:50:32.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2020-08-16 15:50:33.371] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-08-16 15:50:33.371] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2020-08-16 15:50:33.377] [exthost] [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one {"startup":true,"extensionId":{"value":"yzhang.markdown-all-in-one","_lower":"yzhang.markdown-all-in-one"},"activationEvent":"workspaceContains:README.md"}
+[2020-08-16 15:50:33.377] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/yzhang.markdown-all-in-one-3.2.0/dist/extension
+[2020-08-16 15:50:33.959] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 15:50:33.959] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-08-16 15:50:33.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 15:50:33.986] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-08-16 15:50:34.018] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 15:50:34.019] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-08-16 15:50:39.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 15:50:39.026] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-08-16 15:50:39.160] [exthost] [info] eager extensions activated
+[2020-08-16 15:50:39.417] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.417] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-08-16 15:50:39.433] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"extensionId":{"value":"Angular.ng-template","_lower":"angular.ng-template"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.433] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/client
+[2020-08-16 15:50:39.629] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.629] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.npm-intellisense-1.3.0/out/src/extension
+[2020-08-16 15:50:39.673] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.673] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-08-16 15:50:39.731] [exthost] [info] ExtensionService#_doActivateExtension paulmolluzzo.convert-css-in-js {"startup":false,"extensionId":{"value":"paulmolluzzo.convert-css-in-js","_lower":"paulmolluzzo.convert-css-in-js"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.731] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/paulmolluzzo.convert-css-in-js-1.1.3/dist/extension.js
+[2020-08-16 15:50:39.741] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport {"startup":false,"extensionId":{"value":"steoates.autoimport","_lower":"steoates.autoimport"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.741] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/steoates.autoimport-1.5.3/out/src/extension
+[2020-08-16 15:50:39.777] [exthost] [info] ExtensionService#_doActivateExtension tiansin.php-class-helper {"startup":false,"extensionId":{"value":"tiansin.php-class-helper","_lower":"tiansin.php-class-helper"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.777] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tiansin.php-class-helper-0.2.1/out/extension
+[2020-08-16 15:50:39.817] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:typescript"}
+[2020-08-16 15:50:39.817] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.10/dist/intellicode
+[2020-08-16 16:03:51.717] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:03:51.745] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:07:40.136] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-08-16 16:07:40.137] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2020-08-16 16:07:40.172] [exthost] [info] ExtensionService#_doActivateExtension mohd-akram.vscode-html-format {"startup":false,"extensionId":{"value":"mohd-akram.vscode-html-format","_lower":"mohd-akram.vscode-html-format"},"activationEvent":"onLanguage:html"}
+[2020-08-16 16:07:40.172] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mohd-akram.vscode-html-format-0.0.4/out/extension
+[2020-08-16 16:07:40.179] [exthost] [info] ExtensionService#_doActivateExtension tht13.html-preview-vscode {"startup":false,"extensionId":{"value":"tht13.html-preview-vscode","_lower":"tht13.html-preview-vscode"},"activationEvent":"onLanguage:html"}
+[2020-08-16 16:07:40.179] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tht13.html-preview-vscode-0.2.5/out/extension.js
+[2020-08-16 16:09:22.803] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:09:22.806] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:23:52.437] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:23:52.440] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:24:10.225] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:24:10.228] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:31:22.534] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:31:22.539] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:31:24.605] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:31:24.606] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:32:24.365] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:32:24.369] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:34:10.910] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:34:10.912] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:46:52.751] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:46:52.754] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 16:47:17.461] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 16:47:17.462] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 17:00:25.558] [exthost] [error] [Atishay-Jain.All-Autocomplete] provider FAILED
+[2020-08-16 17:00:25.561] [exthost] [error] TypeError: Cannot read property 'push' of undefined
+    at /home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11316
+    at Array.forEach (<anonymous>)
+    at Object.provideCompletionItems (/home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:11253)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:709
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at U.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:678:680)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:455
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:695:433)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 17:05:36.099] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-08-16 17:05:36.100] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2020-08-16 17:15:35.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2020-08-16 17:15:35.537] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2020-08-16 17:15:39.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-08-16 17:15:39.697] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2020-08-16 17:15:39.758] [exthost] [info] ExtensionService#_doActivateExtension hnw.vscode-auto-open-markdown-preview {"startup":false,"extensionId":{"value":"hnw.vscode-auto-open-markdown-preview","_lower":"hnw.vscode-auto-open-markdown-preview"},"activationEvent":"onLanguage:markdown"}
+[2020-08-16 17:15:39.758] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/hnw.vscode-auto-open-markdown-preview-0.0.4/out/src/extension
+[2020-08-16 17:15:40.513] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onLanguage:json"}
+[2020-08-16 17:15:40.513] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-08-16 17:15:40.769] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script {"startup":false,"extensionId":{"value":"eg2.vscode-npm-script","_lower":"eg2.vscode-npm-script"},"activationEvent":"onLanguage:json"}
+[2020-08-16 17:15:40.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/eg2.vscode-npm-script-0.3.13/dist/extension
+[2020-08-16 17:15:40.771] [exthost] [info] ExtensionService#_doActivateExtension mongodb.mongodb-vscode {"startup":false,"extensionId":{"value":"mongodb.mongodb-vscode","_lower":"mongodb.mongodb-vscode"},"activationEvent":"onLanguage:json"}
+[2020-08-16 17:15:40.771] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mongodb.mongodb-vscode-0.1.1/dist/extension.js
+[2020-08-16 17:15:41.396] [exthost] [error] [yzhang.markdown-all-in-one] provider FAILED
+[2020-08-16 17:15:41.405] [exthost] [error] TypeError: Cannot read property 'document' of undefined
+    at f (/home/immanuwel/.vscode/extensions/yzhang.markdown-all-in-one-3.2.0/dist/extension.js:1:266906)
+    at m (/home/immanuwel/.vscode/extensions/yzhang.markdown-all-in-one-3.2.0/dist/extension.js:1:264006)
+    at g (/home/immanuwel/.vscode/extensions/yzhang.markdown-all-in-one-3.2.0/dist/extension.js:1:265698)
+    at v.provideCodeLenses (/home/immanuwel/.vscode/extensions/yzhang.markdown-all-in-one-3.2.0/dist/extension.js:1:268462)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+    at new Promise (<anonymous>)
+    at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+    at _.provideCodeLenses (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+    at K._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+    at K.$provideCodeLenses (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+    at m._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+    at m._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+    at m._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+    at m._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at v.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+    at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+    at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+    at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-08-16 17:19:26.773] [exthost] [info] extension host started
+[2020-08-16 17:19:26.839] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 17:19:26.839] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2020-08-16 17:19:26.842] [exthost] [info] ExtensionService#_doActivateExtension pucelle.vscode-css-navigation {"startup":false,"extensionId":{"value":"pucelle.vscode-css-navigation","_lower":"pucelle.vscode-css-navigation"},"activationEvent":"onLanguage:plaintext"}
+[2020-08-16 17:19:26.842] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pucelle.vscode-css-navigation-1.9.0/client/out/extension
+[2020-08-16 17:19:26.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-08-16 17:19:26.871] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-08-16 17:19:26.873] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-08-16 17:19:26.873] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-08-16 17:19:26.885] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 17:19:26.885] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-08-16 17:19:26.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-08-16 17:19:26.903] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-08-16 17:19:26.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-08-16 17:19:26.935] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-08-16 17:19:26.939] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-08-16 17:19:26.939] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-08-16 17:19:26.943] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-08-16 17:19:26.943] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-08-16 17:19:26.943] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"extensionId":{"value":"Atishay-Jain.All-Autocomplete","_lower":"atishay-jain.all-autocomplete"},"activationEvent":"*"}
+[2020-08-16 17:19:26.944] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2020-08-16 17:19:26.946] [exthost] [info] ExtensionService#_doActivateExtension chenxsan.vscode-standardjs {"startup":true,"extensionId":{"value":"chenxsan.vscode-standardjs","_lower":"chenxsan.vscode-standardjs"},"activationEvent":"*"}
+[2020-08-16 17:19:26.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/chenxsan.vscode-standardjs-1.3.0/client/out/extension
+[2020-08-16 17:19:26.973] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-08-16 17:19:26.973] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/christian-kohler.path-intellisense-2.2.1/out/extension.js
+[2020-08-16 17:19:26.988] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-08-16 17:19:26.988] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-08-16 17:19:27.001] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"*"}
+[2020-08-16 17:19:27.001] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/dbaeumer.vscode-eslint-2.1.8/client/out/extension
+[2020-08-16 17:19:27.007] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-08-16 17:19:27.007] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/formulahendry.auto-close-tag-0.5.8/out/src/extension
+[2020-08-16 17:19:27.008] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer {"startup":true,"extensionId":{"value":"hbenl.vscode-test-explorer","_lower":"hbenl.vscode-test-explorer"},"activationEvent":"*"}
+[2020-08-16 17:19:27.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/hbenl.vscode-test-explorer-2.19.1/out/main.js
+[2020-08-16 17:19:27.029] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"extensionId":{"value":"ionutvmi.path-autocomplete","_lower":"ionutvmi.path-autocomplete"},"activationEvent":"*"}
+[2020-08-16 17:19:27.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ionutvmi.path-autocomplete-1.15.0/out/src/extension
+[2020-08-16 17:19:27.036] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language {"startup":true,"extensionId":{"value":"mblode.twig-language","_lower":"mblode.twig-language"},"activationEvent":"*"}
+[2020-08-16 17:19:27.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mblode.twig-language-0.9.1/extension/index
+[2020-08-16 17:19:27.043] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2020-08-16 17:19:27.044] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/pkief.material-icon-theme-4.2.0/dist/extension
+[2020-08-16 17:19:27.051] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-08-16 17:19:27.051] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-08-16 17:19:27.383] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-08-16 17:19:27.384] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/streetsidesoftware.code-spell-checker-1.9.0/dist/extension
+[2020-08-16 17:19:27.403] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
+[2020-08-16 17:19:27.403] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tabnine.tabnine-vscode-2.9.2/out/extension
+[2020-08-16 17:19:27.419] [exthost] [info] ExtensionService#_doActivateExtension vortizhe.simple-ruby-erb {"startup":true,"extensionId":{"value":"vortizhe.simple-ruby-erb","_lower":"vortizhe.simple-ruby-erb"},"activationEvent":"*"}
+[2020-08-16 17:19:27.419] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/vortizhe.simple-ruby-erb-0.2.1/ruby_erb.js
+[2020-08-16 17:19:27.420] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2020-08-16 17:19:27.420] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/zignd.html-css-class-completion-1.19.0/out/src/extension
+[2020-08-16 17:19:28.533] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":true,"extensionId":{"value":"felixfbecker.php-intellisense","_lower":"felixfbecker.php-intellisense"},"activationEvent":"workspaceContains:**/*.php"}
+[2020-08-16 17:19:28.534] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/out/extension
+[2020-08-16 17:19:28.940] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 17:19:28.941] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-08-16 17:19:28.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 17:19:28.945] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-08-16 17:19:28.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-08-16 17:19:28.969] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-08-16 17:19:29.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-08-16 17:19:29.900] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-08-16 17:19:29.991] [exthost] [info] eager extensions activated
+[2020-08-16 17:28:25.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.189] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2020-08-16 17:28:25.216] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"extensionId":{"value":"bmewburn.vscode-intelephense-client","_lower":"bmewburn.vscode-intelephense-client"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.216] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/bmewburn.vscode-intelephense-client-1.5.3/lib/extension
+[2020-08-16 17:28:25.251] [exthost] [info] ExtensionService#_doActivateExtension bschulte.php-autocomplete {"startup":false,"extensionId":{"value":"bschulte.php-autocomplete","_lower":"bschulte.php-autocomplete"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.251] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/bschulte.php-autocomplete-0.4.2/out/src/extension
+[2020-08-16 17:28:25.257] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.257] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-08-16 17:28:25.434] [exthost] [info] ExtensionService#_doActivateExtension kokororin.vscode-phpfmt {"startup":false,"extensionId":{"value":"kokororin.vscode-phpfmt","_lower":"kokororin.vscode-phpfmt"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/out/src/extension
+[2020-08-16 17:28:25.551] [exthost] [info] ExtensionService#_doActivateExtension linyang95.php-symbols {"startup":false,"extensionId":{"value":"linyang95.php-symbols","_lower":"linyang95.php-symbols"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.551] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/linyang95.php-symbols-2.1.0/extension
+[2020-08-16 17:28:25.767] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor {"startup":false,"extensionId":{"value":"MehediDracula.php-constructor","_lower":"mehedidracula.php-constructor"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.767] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mehedidracula.php-constructor-0.1.2/src/extension
+[2020-08-16 17:28:25.771] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver {"startup":false,"extensionId":{"value":"MehediDracula.php-namespace-resolver","_lower":"mehedidracula.php-namespace-resolver"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.771] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2020-08-16 17:28:25.779] [exthost] [info] ExtensionService#_doActivateExtension neilbrayfield.php-docblocker {"startup":false,"extensionId":{"value":"neilbrayfield.php-docblocker","_lower":"neilbrayfield.php-docblocker"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/neilbrayfield.php-docblocker-2.1.0/out/src/extension
+[2020-08-16 17:28:25.794] [exthost] [info] ExtensionService#_doActivateExtension phproberto.vscode-php-getters-setters {"startup":false,"extensionId":{"value":"phproberto.vscode-php-getters-setters","_lower":"phproberto.vscode-php-getters-setters"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/phproberto.vscode-php-getters-setters-1.2.3/out/extension
+[2020-08-16 17:28:25.804] [exthost] [info] ExtensionService#_doActivateExtension small.php-ci {"startup":false,"extensionId":{"value":"small.php-ci","_lower":"small.php-ci"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.804] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/small.php-ci-0.3.9/out/src/extension
+[2020-08-16 17:28:25.877] [exthost] [info] ExtensionService#_doActivateExtension tiansin.php-class-helper {"startup":false,"extensionId":{"value":"tiansin.php-class-helper","_lower":"tiansin.php-class-helper"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.877] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/tiansin.php-class-helper-0.2.1/out/extension
+[2020-08-16 17:28:25.906] [exthost] [info] ExtensionService#_doActivateExtension valeryanm.vscode-phpsab {"startup":false,"extensionId":{"value":"valeryanm.vscode-phpsab","_lower":"valeryanm.vscode-phpsab"},"activationEvent":"onLanguage:php"}
+[2020-08-16 17:28:25.906] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/valeryanm.vscode-phpsab-0.0.10/dist/extension
+[2020-08-16 17:33:55.217] [exthost] [info] ExtensionService#_doActivateExtension mblode.twig-language-2 {"startup":false,"extensionId":{"value":"mblode.twig-language-2","_lower":"mblode.twig-language-2"},"activationEvent":"onLanguage:twig"}
+[2020-08-16 17:33:55.218] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/mblode.twig-language-2-0.9.1/extension/index
+[2020-08-16 17:33:55.255] [exthost] [info] ExtensionService#_doActivateExtension OldStarchy.twig-language {"startup":false,"extensionId":{"value":"OldStarchy.twig-language","_lower":"oldstarchy.twig-language"},"activationEvent":"onLanguage:twig"}
+[2020-08-16 17:33:55.256] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/immanuwel/.vscode/extensions/oldstarchy.twig-language-0.10.2/extension/index

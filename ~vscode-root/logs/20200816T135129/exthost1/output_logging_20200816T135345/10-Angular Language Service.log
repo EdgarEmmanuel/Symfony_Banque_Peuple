@@ -1,0 +1,8 @@
+[Info  - 1:53:45 PM] Angular language server process ID: 22503
+[Info  - 1:53:45 PM] Using typescript/lib/tsserverlibrary v3.9.5 from /home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 1:53:45 PM] Using @angular/language-service v10.0.7 from /home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js
+[Info  - 1:53:45 PM] Log file: /opt/lampp/htdocs/symfoBanque/~vscode-root/logs/20200816T135129/exthost1/Angular.ng-template/nglangsvc.log
+[Error - 1:56:27 PM] No config file for /home/immanuwel/Documents/Node_Work/views/test.ejs
+[Error - 2:11:01 PM] No config file for /home/immanuwel/Documents/Node_Work/views/partials/nav.ejs
+[Error - 2:12:19 PM] No config file for /home/immanuwel/Documents/Node_Work/views/edgar.ejs
+[Error - 2:12:47 PM] No config file for /home/immanuwel/Documents/Node_Work/views/user.ejs

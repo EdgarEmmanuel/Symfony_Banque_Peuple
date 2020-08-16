@@ -1,0 +1,5 @@
+[Info  - 3:50:42 PM] Angular language server process ID: 29928
+[Info  - 3:50:42 PM] Using typescript/lib/tsserverlibrary v3.9.5 from /home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 3:50:42 PM] Using @angular/language-service v10.0.7 from /home/immanuwel/.vscode/extensions/angular.ng-template-0.1000.7/server/node_modules/@angular/language-service/bundles/language-service.js
+[Info  - 3:50:42 PM] Log file: /opt/lampp/htdocs/symfoBanque/~vscode-root/logs/20200816T135129/exthost1/Angular.ng-template/nglangsvc.log
+[Info  - 3:50:49 PM] Enabling language service for /home/immanuwel/ANGULAR/routing/tsconfig.json.

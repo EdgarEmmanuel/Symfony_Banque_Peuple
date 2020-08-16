@@ -1,0 +1,34 @@
+[15:50:39] Client for workspace folder "routing" started
+[15:50:40] Server for workspace folder "routing" started
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/app.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/blog/blog.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/contribute-page/contribute-page.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/destination/destination.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/det-reservation/det-reservation.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/inscription/inscription.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/one-reserv/one-reserv.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/reservation-list/reservation-list.component.css tracked
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/styles.css tracked
+[16:00:30] 9 files tracked in 42 ms
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/app.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/blog/blog.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/contribute-page/contribute-page.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/destination/destination.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/det-reservation/det-reservation.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/inscription/inscription.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/one-reserv/one-reserv.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/app/reservation-list/reservation-list.component.css loaded
+[16:00:30] /home/immanuwel/ANGULAR/routing/src/styles.css loaded
+[16:00:30] 9 files loaded in 18 ms
+[16:00:30] No completion found, 886 ms cost
+Timer "track" is not started
+[16:00:30] 9 files tracked in 0 ms
+[16:00:30] No completion found, 696 ms cost
+[16:07:27] 1 completion found, 0 ms cost
+[16:07:31] No completion found, 0 ms cost
+[17:00:38] 3 completions found, 0 ms cost
+[17:00:39] 3 completions found, 0 ms cost
+[17:05:47] /home/immanuwel/ANGULAR/routing/src/app/blog/blog.component.css closed
+[17:05:54] /home/immanuwel/ANGULAR/routing/src/app/blog/blog.component.css expired
+[17:11:48] /home/immanuwel/ANGULAR/routing/src/app/blog/blog.component.css closed
+[17:19:24] Client for workspace folder "routing" stopped

@@ -1,0 +1,44 @@
+[Info  - 3:50:42 PM] JavaScript Standard Style server is running.
+[Info  - 3:50:43 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/src/app/desti-model.service.ts
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 3:50:52 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/src/app/reservation.service.ts
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 3:57:29 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/src/app/reservation-list/reservation-list.component.ts
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 4:08:31 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/src/app/one-reserv/one-reserv.component.ts
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 4:59:44 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/src/app/inscription/inscription.component.ts
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 5:15:41 PM] 
+Failed to load the JavaScript Standard Style library for the document /home/immanuwel/ANGULAR/routing/package.json
+
+To use JavaScript Standard Style please install JavaScript Standard Style by running 'npm install standard' in the workspace folder routing
+or globally using 'npm install -g standard'. You need to reopen the workspace after installing JavaScript Standard Style.
+
+Alternatively you can disable JavaScript Standard Style for the workspace folder routing by executing the 'Disable JavaScript Standard Style' command.
+[Info  - 5:19:24 PM] JavaScript Standard Style server stopped.
