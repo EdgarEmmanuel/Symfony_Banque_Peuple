@@ -1,9 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
-
-# all get routes
-
 index:
     path: /
     controller: App\Controller\TestController::index
@@ -50,14 +44,21 @@ insertSalarie:
     controller: App\Controller\ClientsController::insertCSalarie
     methods: POST
 
+
 insertMoral:
     path: /pageInsertMoral
     controller: App\Controller\ClientsController::insertCMoral
     methods: POST
 
+
 insertIndependant:
     path: /insertIndependant
     controller: App\Controller\ClientsController::insertCIndependant
+    methods: POST
+
+verifyCNI:
+    path: /verifyMat
+    controller: App\Controller\CompteController::verifyMatricule
     methods: POST
 
 

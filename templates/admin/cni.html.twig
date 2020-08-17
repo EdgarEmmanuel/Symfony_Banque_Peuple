@@ -16,7 +16,7 @@
      <input type="text" value="Matricule : {{ app.getSession().get('matricule') }} " placeholder="" id="caissiere" readonly/>
         <a href="/logout" id="a" >Deconnexion</a><br>
         <input type="text" value="Nom Complet : {{ app.getSession().get('nomComplet') }} " placeholder="" id="nom" readonly/><br>
-        <form action="/checkCni" method="post" id="formGest">
+        <form action="/verifyMat" method="post" onsubmit="return post()" id="formGest">
             <label id="label"  for="">ANCIEN CLIENT</label><br/>
             <input type="text" placeholder="MATRICULE CLIENT" name="matricule" id="cni" autocomplete="off" required /> <br>
             <button id="verClient" name="btn" value="verify">Verifier</button>
