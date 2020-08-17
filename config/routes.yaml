@@ -62,3 +62,8 @@ verifyCNI:
     methods: POST
 
 
+insertCompte:
+    path: /compte
+    controller: App\Controller\CompteController::insertCompte
+    methods: POST
+

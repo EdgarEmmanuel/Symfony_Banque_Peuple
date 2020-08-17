@@ -14,15 +14,15 @@
     </div>
 </header>
 <main>
-    <form action="/compte" method="post">
+    <form action="/compte"  method="post">
 
          <div class="Moral">
             <h2>INFORMATIONS COMPTE DU CLIENT </h2>
             <input type="text" name="" placeholder="nom complet"
-         value="{{ session("nomCompletClient") }}" id="prenom" readonly/>
+         value="{{ app.getSession().get("nomClient") }}" id="prenom" readonly/>
 
             <input type="text" name="" placeholder="cni" 
-             value=" {{ session("idClient") }} " id="idClient" readonly/>
+             value=" {{ app.getSession().get("idClient") }} " id="idClient" readonly/>
         </div>
 
         <label for="" style="color:white;">TYPE COMPTE </label>
@@ -37,7 +37,7 @@
             <input type="number" name="montant" id="montant" min="10000" placeholder="montant" /> 
             <input type="text" name="Name_entreprise" id="nom_Entreprise" placeholder="nom Entreprise" /><br/>
             <input type="text" name="adresse_Entreprise" id="Adresse_Entreprise" placeholder="Adresse Entreprise" />
-            <input type="text" name="numero_Agence" id="numeroAgence"  placeholder="numero Agence" value=" {{session("nameAgence")}} " readonly/><br/>
+            <input type="text" name="numero_Agence" id="numeroAgence"  placeholder="numero Agence" value=" {{app.getSession().get("nomAgence")}} " readonly/><br/>
 
             
             <label for="" style="color:white;">DATE DEBLOCAGE COMPTE </label>
