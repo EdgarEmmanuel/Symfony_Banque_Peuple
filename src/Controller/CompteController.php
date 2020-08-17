@@ -5,8 +5,10 @@ namespace App\Controller;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use App\Entity\CompteBloque;
 
 use App\Entity\ClientSalarie;
+use App\Entity\Comptes;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 class CompteController extends AbstractController
@@ -70,10 +72,143 @@ class CompteController extends AbstractController
         }
     }
 
+   
+
     //========================the function to insert all the account======================
+
+
+    private  function insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc){
+        $compte = new Comptes();
+
+        $compte->setIdAgence($idAg);
+
+        $compte->setIdClient($idClient);
+
+        $compte->setIdRespoCompte($idEmp);
+
+        $compte->setDateOuverture($dateOuv);
+
+        $compte->setCleRib($cleRib);
+
+        $compte->setNumCompte($numAcc);
+
+        $this->_entity->persist($compte);
+
+        $this->_entity->flush();
+
+        return $compte;
+    }
+
+    public  function insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc){
+        $bloque = new CompteBloque();
+
+        $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+
+        $bloque->setSolde($solde);
+
+        $bloque->setDateDeblocage($dateDebloc);
+
+
+        $this->_entity->persist($bloque);
+        $this->_entity->flush();
+
+        return $bloque->getId();
+    }
+
+
+    public function insertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc){
+        
+    }
+
+
+    private function getNumCompte($choix){
+        switch($choix){
+            case "E": 
+                $num = $this->_entity
+                ->createQuery("SELECT count(c.id) as numero from App\Entity\Comptes c where substring(c.num_compte,1,2)='CE' ")
+                ->getResult();
+
+                foreach($num as $n){
+                    $numero = "CE".((int)$n["numero"] +1);
+                }
+            break;
+            case "B": 
+                $num = $this->_entity
+                ->createQuery("SELECT count(c.id) as numero from App\Entity\Comptes c where substring(c.num_compte,1,2)='CE' ")
+                ->getResult();
+                
+                foreach($num as $n){
+                    $numero = "CB".((int)$n["numero"] +1);
+                }
+            break;
+            case "C": 
+                $num = $this->_entity
+                ->createQuery("SELECT count(c.id) as numero from App\Entity\Comptes c where substring(c.num_compte,1,2)='CC' ")
+                ->getResult();
+                foreach($num as $n){
+                    $numero = "CC".((int)$n["numero"] +1);
+                }
+            break;
+        }
+        return $numero;
+    }
 
     public function insertCompte(Request $request ){
         var_dump($request->request);
+
+        die();
+
+        $ses = new Session();
+        
+        //get id of the responsable of the account
+        $idEmp=$ses->get("idEmploye");
+
+        //get the id of the agence 
+        $idAg=$ses->get("idAgence");
+
+        //get the id of the client 
+        $idClient = $ses->get("idClient");
+
+
+        $dateOuv = $request->request->get("dateOuvert");
+
+        $cleRib = $request->request->get("cle_rib");
+
+
+        $solde = $request->request->get("montant");
+
+        $dateDebloc = $request->request->get("dateDebloc");
+
+
+        switch($request->reguest->get("typeCompte")){
+            case "Bloque": 
+                //set the numero of the account 
+                $numAcc = $this->getNumCompte("B");
+                
+                //insert in the account bloque 
+                $id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
+            break;
+
+            case "Epargne": 
+                //set the numero of the account 
+                $numAcc = $this->getNumCompte("B");
+
+                $id=1;
+            break;
+
+            case "Courant": 
+                //set the numero of the account 
+                $numAcc = $this->getNumCompte("C");
+
+                $id=2;
+            break;
+        }
+
+        if($id!=0){
+            return $this->redirectToRoute("cniPage");
+        }
+
+       
     }
 
 
