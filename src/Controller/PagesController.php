@@ -83,4 +83,20 @@ class PagesController extends AbstractController
           
         return $this->render("clients/cSalarie.html.twig",$donnees);
     }
+
+
+    public function getPageInsertCompte(){
+        //default min date 
+        $data["min_date"] = \Date("Y-m-d");
+
+        //default date deblocage 
+        $data["date_debloc"] = \Date("Y-m-d",strtotime('+1 year'));
+
+        return $this->render("comptes/addCompte.html.twig",$data);
+    }
+
+
+
+
+
 }

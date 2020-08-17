@@ -15201,3 +15201,14 @@ Open repository: /opt/lampp/htdocs/symfoBanque
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /opt/lampp/htdocs/symfoBanque/templates/comptes/addCompte.html.twig
+> git symbolic-ref --short HEAD
+> git cat-file -s df29044cb2e38d8b940324201c7a7ea994a838b5
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :templates/comptes/addCompte.html.twig
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

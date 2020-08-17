@@ -28,9 +28,14 @@ pageInsertMoral:
     path: /clients/moral.html
     controller: App\Controller\PagesController::getPageMoral
 
+pageInserCompte:
+    path: /insert/compte
+    controller: App\Controller\PagesController::getPageInsertCompte
+
 Deconnex:
     path: /logout
     controller: App\Controller\PagesController::logout
+
 
 
 # all post routes 
