@@ -18,7 +18,7 @@ class Comptes
     private $id;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="string")
      */
     private $date_ouverture;
 
@@ -60,7 +60,7 @@ class Comptes
         return $this->date_ouverture;
     }
 
-    public function setDateOuverture(\DateTimeInterface $date_ouverture): self
+    public function setDateOuverture(string $date_ouverture): self
     {
         $this->date_ouverture = $date_ouverture;
 

@@ -116,8 +116,8 @@ class CompteController extends AbstractController
     }
 
 
-    public function insertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc){
-        
+    public function insertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde){
+        echo 1;
     }
 
 
@@ -154,43 +154,62 @@ class CompteController extends AbstractController
     }
 
     public function insertCompte(Request $request ){
-        var_dump($request->request);
-
-        die();
 
         $ses = new Session();
         
         //get id of the responsable of the account
         $idEmp=$ses->get("idEmploye");
 
-        //get the id of the agence 
-        $idAg=$ses->get("idAgence");
+        //$session = App.getSession().get("");
+
+
+        //get the id of the agence
+        //("idAgence");
+
+        var_dump($ses->get("idAgence"));
+        die;
+
+        $idAg=0;
+
 
         //get the id of the client 
         $idClient = $ses->get("idClient");
 
 
-        $dateOuv = $request->request->get("dateOuvert");
 
-        $cleRib = $request->request->get("cle_rib");
-
-
-        $solde = $request->request->get("montant");
-
-        $dateDebloc = $request->request->get("dateDebloc");
-
-
-        switch($request->reguest->get("typeCompte")){
+        switch($request->request->get("typeCompte")){
             case "Bloque": 
                 //set the numero of the account 
                 $numAcc = $this->getNumCompte("B");
                 
                 //insert in the account bloque 
-                $id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
+                //$id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
+
+                //fetch the data 
+                $dateOuv = $request->request->get("dateOuvert");
+
+                $cleRib = $request->request->get("cle_rib");
+
+                $solde = $request->request->get("montant");
+
+                $dateDebloc = $request->request->get("dateDebloc");
+
+                $bloque = new CompteBloque();
+
+                $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+
+                $bloque->setSolde($solde);
+
+                $bloque->setDateDeblocage($dateDebloc);
+
+
+                $this->_entity->persist($bloque);
+                $this->_entity->flush();
+
             break;
 
             case "Epargne": 
-                //set the numero of the account 
+                //set the numero of the account
                 $numAcc = $this->getNumCompte("B");
 
                 $id=1;
@@ -205,6 +224,10 @@ class CompteController extends AbstractController
         }
 
         if($id!=0){
+            $ses->set("success","SUCCESS INSERTION !!!");
+            return $this->redirectToRoute("cniPage");
+        }else{
+            $ses->set("error","INSERTION ECHOUEE !!!");
             return $this->redirectToRoute("cniPage");
         }
 

@@ -11,6 +11,17 @@
     </head>
     <body>
         {% block body %}{% endblock %}
+
+    <div class="container" >
+        {% if app.getSession().get("success") %}
+             {{ app.getSession().get("success") }} 
+        {% endif %}
+
+        {% if app.getSession().get("success") %}
+             {{ app.getSession().get("success") }} 
+        {% endif %}
+    </div>
+
         {% block javascripts %}{% endblock %}
     </body>
 </html>
