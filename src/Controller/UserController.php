@@ -89,7 +89,7 @@ class UserController extends AbstractController
                                     ])->getIdAgence()
                                 ])->getAgence();
 
-                                $session = new Session();
+                                $session = new Session(); 
                                 $session->start();
 
                                 //set the session for the respo 

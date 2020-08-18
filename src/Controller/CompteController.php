@@ -65,7 +65,6 @@ class CompteController extends AbstractController
 
                             //redirection 
                             return $this->redirectToRoute("pageInserCompte");
-
                            break;
                        }
                     }
@@ -155,26 +154,8 @@ class CompteController extends AbstractController
 
     public function insertCompte(Request $request ){
 
-        $ses = new Session();
-        
-        //get id of the responsable of the account
-        $idEmp=$ses->get("idEmploye");
-
-        //$session = App.getSession().get("");
-
-
-        //get the id of the agence
-        //("idAgence");
-
-        var_dump($ses->get("idAgence"));
+        var_dump($request->request);
         die;
-
-        $idAg=0;
-
-
-        //get the id of the client 
-        $idClient = $ses->get("idClient");
-
 
 
         switch($request->request->get("typeCompte")){
@@ -196,7 +177,7 @@ class CompteController extends AbstractController
 
                 $bloque = new CompteBloque();
 
-                $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+               // $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
 
                 $bloque->setSolde($solde);
 
@@ -224,14 +205,12 @@ class CompteController extends AbstractController
         }
 
         if($id!=0){
-            $ses->set("success","SUCCESS INSERTION !!!");
             return $this->redirectToRoute("cniPage");
         }else{
-            $ses->set("error","INSERTION ECHOUEE !!!");
             return $this->redirectToRoute("cniPage");
         }
 
-       
+        return $this->redirectToRoute("cniPage");
     }
 
 

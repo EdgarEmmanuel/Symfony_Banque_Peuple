@@ -38,7 +38,6 @@
             <input type="text" name="Name_entreprise" id="nom_Entreprise" placeholder="nom Entreprise" /><br/>
             <input type="text" name="adresse_Entreprise" id="Adresse_Entreprise" placeholder="Adresse Entreprise" />
             <input type="text" name="numero_Agence" id="numeroAgence"  placeholder="numero Agence" value=" {{app.getSession().get("nomAgence")}} " readonly/><br/>
-
             
             <label for="" style="color:white;">DATE DEBLOCAGE COMPTE </label>
         <input type="date" placeholder="date deblocage compte" min="{{ date_debloc }}" value="{{ date_debloc }}" id="date_deblocage" name="dateDebloc"/> 
@@ -53,6 +52,12 @@
             <div id="choix2">
                 <label for="" style="color:white;">RETRAIT AGIOS TOUS LES 3 MOIS</label> <input type="checkbox" name="agiosOBG" value="agios" id="fraisR"/>
             </div>
+            
+            {# ================ fields hidden for the Id of the Employee and the Agence ==========================  #}
+
+            <input type="number" name="idAgence" value="{{ app.getSession().get("idAgence")}}" hidden />
+             <input type="number" name="idEmp" value="{{ app.getSession().get("idEmploye")}}" hidden/>
+
     <div class="button_for_s" id="button">
         <button id="btn_create" name="btn" value="C_compte" >Valider</button>  <button>Annuler</button>
     </div>
