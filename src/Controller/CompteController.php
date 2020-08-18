@@ -26,8 +26,10 @@ class CompteController extends AbstractController
         if(strlen($request->request->get("matricule")) < 3){
             return $this->redirectToRoute("cniPage");
         }else{
+            
             $mat = $request->request->get("matricule")[0].$request->request->get("matricule")[1].$request->request->get("matricule")[2];
-                    
+            echo $mat;
+            die;
             //if the length is good we verify the result of the fisrt three character
             if($mat!="BPS" && $mat!="BCI" && $mat!="BCM"){
                         //when it is different we return to the CNI page
