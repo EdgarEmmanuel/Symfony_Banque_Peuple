@@ -15,6 +15,7 @@ use App\Entity\Clients;
 use App\Entity\ClientIndependant;
 use App\Entity\Comptes;
 use App\Entity\ResponsableCompte;
+use App\Entity\CompteEpargne;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 class CompteController extends AbstractController
@@ -196,7 +197,8 @@ class CompteController extends AbstractController
     }
 
 
-    public function insertCourant($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$raison,$nomEnter,$adresseEnt){
+    public function insertCourant($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,
+    $solde,$raison,$nomEnter,$adresseEnt){
         $courant = new CompteCourant();
 
         $courant->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
@@ -213,6 +215,21 @@ class CompteController extends AbstractController
         $this->_entity->flush();
 
         return $courant->getId();
+    }
+
+
+    public function InsertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,
+    $solde){
+        $Epargne = new CompteEpargne();
+
+        $Epargne->setCompteId($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+
+        $Epargne->setSolde($solde);
+
+        $this->_entity->persist($Epargne);
+        $this->_entity->flush();
+
+        return $Epargne->getId();
     }
 
 
@@ -280,14 +297,14 @@ class CompteController extends AbstractController
 
                 //insert in the account bloque 
                 $id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
-
             break;
 
             case "Epargne": 
                 //set the numero of the account
                 $numAcc = $this->getNumCompte("E");
 
-                $id=0;
+                //insert in the Epargne account
+                $id=$this->InsertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde);
             break;
 
             case "Courant": 
@@ -299,6 +316,7 @@ class CompteController extends AbstractController
                 $nomEnter=$request->request->get("Name_entreprise");
                 $adresseEnt=$request->request->get("adresse_Entreprise");
                
+                //insert into the courant account 
                 $id=$this->insertCourant($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$raison,$nomEnter,$adresseEnt);               
             break;
         }
