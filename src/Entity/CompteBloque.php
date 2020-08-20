@@ -29,7 +29,7 @@ class CompteBloque
     private $solde;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="string")
      */
     private $date_deblocage;
 
@@ -62,12 +62,12 @@ class CompteBloque
         return $this;
     }
 
-    public function getDateDeblocage(): ?\DateTimeInterface
+    public function getDateDeblocage(): ?string
     {
         return $this->date_deblocage;
     }
 
-    public function setDateDeblocage(\DateTimeInterface $date_deblocage): self
+    public function setDateDeblocage(string $date_deblocage): self
     {
         $this->date_deblocage = $date_deblocage;
 

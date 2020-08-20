@@ -6,11 +6,15 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use App\Entity\CompteBloque;
+use App\Entity\CompteCourant;
 
+use App\Entity\Agences;
 use App\Entity\ClientSalarie;
 use App\Entity\ClientMoral;
+use App\Entity\Clients;
 use App\Entity\ClientIndependant;
 use App\Entity\Comptes;
+use App\Entity\ResponsableCompte;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 class CompteController extends AbstractController
@@ -19,12 +23,18 @@ class CompteController extends AbstractController
     private $SalarieRepository;
     private $ClientM;
     private $ClientI;
+    private $agence;
+    private $clients;
+    private $respo;
 
     public function __construct(EntityManagerInterface $entity){
         $this->_entity=$entity;
         $this->SalarieRepository = $this->_entity->getRepository(ClientSalarie::class);
         $this->ClientM = $this->_entity->getRepository(ClientMoral::class);
         $this->ClientI = $this->_entity->getRepository(ClientIndependant::class);
+        $this->agence = $this->_entity->getRepository(Agences::class);
+        $this->clients = $this->_entity->getRepository(Clients::class);
+        $this->respo = $this->_entity->getRepository(ResponsableCompte::class);
     }
    
     public function verifyMatricule(Request $request){
@@ -40,7 +50,7 @@ class CompteController extends AbstractController
 
                         //when it is different we return to the CNI page
                         return $this->redirectToRoute("cniPage");
-                        
+
                     }else{
                        switch($mat){
                            case "BPS": 
@@ -143,17 +153,19 @@ class CompteController extends AbstractController
 
    
 
-    //========================the function to insert all the account======================
+    //======================== the function to insert all the account ======================
 
 
     private  function insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc){
         $compte = new Comptes();
 
-        $compte->setIdAgence($idAg);
+        $compte->setIdAgence($this->agence->find($idAg));
 
-        $compte->setIdClient($idClient);
+        
+        $compte->setIdClient($this->clients->find($idClient));
 
-        $compte->setIdRespoCompte($idEmp);
+
+        $compte->setIdRespoCompte($this->respo->find($idEmp));
 
         $compte->setDateOuverture($dateOuv);
 
@@ -177,7 +189,6 @@ class CompteController extends AbstractController
 
         $bloque->setDateDeblocage($dateDebloc);
 
-
         $this->_entity->persist($bloque);
         $this->_entity->flush();
 
@@ -185,8 +196,23 @@ class CompteController extends AbstractController
     }
 
 
-    public function insertEpargne($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde){
-        echo 1;
+    public function insertCourant($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$raison,$nomEnter,$adresseEnt){
+        $courant = new CompteCourant();
+
+        $courant->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+
+        $courant->setAdresseEmployeur($adresseEnt);
+
+        $courant->setNomEntreprise($nomEnter);
+
+        $courant->setRaisonSocial($raison);
+
+        $courant->setSolde($solde);
+
+        $this->_entity->persist($courant);
+        $this->_entity->flush();
+
+        return $courant->getId();
     }
 
 
@@ -224,19 +250,24 @@ class CompteController extends AbstractController
 
     public function insertCompte(Request $request ){
 
-        var_dump($request->request);
-        die;
+        // var_dump($request->request);
+        // die;
+
+        $id=0;
 
 
         switch($request->request->get("typeCompte")){
             case "Bloque": 
                 //set the numero of the account 
                 $numAcc = $this->getNumCompte("B");
-                
-                //insert in the account bloque 
-                //$id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
 
                 //fetch the data 
+                $idAg=$request->request->get("idAgence");
+
+                $idClient=(int)$request->request->get("idClient");
+
+                $idEmp=$request->request->get("idEmp");
+
                 $dateOuv = $request->request->get("dateOuvert");
 
                 $cleRib = $request->request->get("cle_rib");
@@ -245,17 +276,16 @@ class CompteController extends AbstractController
 
                 $dateDebloc = $request->request->get("dateDebloc");
 
-                $bloque = new CompteBloque();
+                //insert in the account bloque 
+                $id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
 
-               // $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
+            //     $bloque = new CompteBloque();
 
-                $bloque->setSolde($solde);
+            //    // $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
 
-                $bloque->setDateDeblocage($dateDebloc);
+            //     $bloque->setSolde($solde);
 
-
-                $this->_entity->persist($bloque);
-                $this->_entity->flush();
+            //     $bloque->setDateDeblocage($dateDebloc);
 
             break;
 

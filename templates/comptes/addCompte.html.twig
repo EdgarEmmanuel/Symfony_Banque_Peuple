@@ -53,10 +53,15 @@
                 <label for="" style="color:white;">RETRAIT AGIOS TOUS LES 3 MOIS</label> <input type="checkbox" name="agiosOBG" value="agios" id="fraisR"/>
             </div>
             
-            {# ================ fields hidden for the Id of the Employee and the Agence ==========================  #}
+            {# ================ fields hidden for the Id of the Employee 
+                                and the Id of  Agence and 
+                                Th Id of the Employee
+             ==========================  #}
 
             <input type="number" name="idAgence" value="{{ app.getSession().get("idAgence")}}" hidden />
              <input type="number" name="idEmp" value="{{ app.getSession().get("idEmploye")}}" hidden/>
+             <input type="text" name="idClient"
+             value=" {{ app.getSession().get("idClient") }} " id="idClient" hidden/>
 
     <div class="button_for_s" id="button">
         <button id="btn_create" name="btn" value="C_compte" >Valider</button>  <button>Annuler</button>
