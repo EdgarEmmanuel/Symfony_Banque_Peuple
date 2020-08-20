@@ -255,52 +255,51 @@ class CompteController extends AbstractController
 
         $id=0;
 
+        //fetch the data 
+        $idAg=$request->request->get("idAgence");
+
+        $idClient=(int)$request->request->get("idClient");
+
+        $idEmp=$request->request->get("idEmp");
+
+        $dateOuv = $request->request->get("dateOuvert");
+
+        $cleRib = $request->request->get("cle_rib");
+
+        $solde = $request->request->get("montant");
+
 
         switch($request->request->get("typeCompte")){
             case "Bloque": 
                 //set the numero of the account 
                 $numAcc = $this->getNumCompte("B");
 
-                //fetch the data 
-                $idAg=$request->request->get("idAgence");
-
-                $idClient=(int)$request->request->get("idClient");
-
-                $idEmp=$request->request->get("idEmp");
-
-                $dateOuv = $request->request->get("dateOuvert");
-
-                $cleRib = $request->request->get("cle_rib");
-
-                $solde = $request->request->get("montant");
+                //fetch the data specific for Locked Account
 
                 $dateDebloc = $request->request->get("dateDebloc");
 
                 //insert in the account bloque 
                 $id=$this->insertBloque($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$dateDebloc);
 
-            //     $bloque = new CompteBloque();
-
-            //    // $bloque->setIdCompte($this->insertInCompte($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc));
-
-            //     $bloque->setSolde($solde);
-
-            //     $bloque->setDateDeblocage($dateDebloc);
-
             break;
 
             case "Epargne": 
                 //set the numero of the account
-                $numAcc = $this->getNumCompte("B");
+                $numAcc = $this->getNumCompte("E");
 
-                $id=1;
+                $id=0;
             break;
 
             case "Courant": 
                 //set the numero of the account 
                 $numAcc = $this->getNumCompte("C");
 
-                $id=2;
+                //fetch the specific field for epargne account
+                $raison=$request->request->get("raison");
+                $nomEnter=$request->request->get("Name_entreprise");
+                $adresseEnt=$request->request->get("adresse_Entreprise");
+               
+                $id=$this->insertCourant($idEmp,$idAg,$idClient,$dateOuv,$cleRib,$numAcc,$solde,$raison,$nomEnter,$adresseEnt);               
             break;
         }
 
