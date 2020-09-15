@@ -17,6 +17,8 @@ use App\Entity\Employes;
 
 use App\Entity\Agences;
 
+use App\Entity\Administrateur;
+
 use Doctrine\ORM\EntityManagerInterface;
 
 class UserController extends AbstractController
@@ -25,6 +27,7 @@ class UserController extends AbstractController
     private $session;
     private $ResponsableCompteRepository;
     private $employes;
+    private $adminEntity;
     private $agenceEntity;
 
     public function __construct(EntityManagerInterface $entity,SessionInterface $session){
@@ -32,6 +35,7 @@ class UserController extends AbstractController
         $this->ResponsableCompteRepository = $this->em->getRepository(ResponsableCompte::class);
         $this->employes = $this->em->getRepository(Employes::class);
         $this->agenceEntity = $this->em->getRepository(Agences::class);
+        $this->adminEntity = $this->em->getRepository(Administrateur::class);
         $this->session=$session;
     }
 
@@ -112,7 +116,33 @@ class UserController extends AbstractController
             break;
 
             case "administrateur": 
-                echo "responsable";
+                 //get the login
+                 $login = $req->request->get("login");
+
+                 //get the password
+                 $password = $req->request->get("password");
+
+               $data = $this->adminEntity->findOneBy([
+                   'login' => $login ,
+                   'password' => $password
+               ]);
+
+               if($data==null){
+                   return $this->redirectToRoute("index");
+               }else{
+                   $employe_administrateur = $this->employes->findOneBy([
+                        'id' => $data = $this->adminEntity->findOneBy([
+                            'login' => $login ,
+                            'password' => $password
+                        ])->getIdEmp()
+                   ]);
+
+                   var_dump($employe_administrateur);
+                    
+               }
+
+               var_dump($data);
+               die;
             break;
 
             case "caissiere": 

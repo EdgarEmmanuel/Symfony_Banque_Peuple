@@ -47,6 +47,11 @@ class Employes
      */
     private $id_agence;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $id_matricule;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -120,6 +125,18 @@ class Employes
     public function setIdAgence(?int $id_agence): self
     {
         $this->id_agence = $id_agence;
+
+        return $this;
+    }
+
+    public function getIdMatricule(): ?string
+    {
+        return $this->id_matricule;
+    }
+
+    public function setIdMatricule(string $id_matricule): self
+    {
+        $this->id_matricule = $id_matricule;
 
         return $this;
     }
