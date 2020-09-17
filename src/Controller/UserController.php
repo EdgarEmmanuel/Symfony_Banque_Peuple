@@ -135,14 +135,12 @@ class UserController extends AbstractController
                             'login' => $login ,
                             'password' => $password
                         ])->getIdEmp()
-                   ]);
+                   ])->getPrenom();
 
                    var_dump($employe_administrateur);
+                   die;
                     
                }
-
-               var_dump($data);
-               die;
             break;
 
             case "caissiere": 
