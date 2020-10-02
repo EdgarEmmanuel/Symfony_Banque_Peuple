@@ -1,0 +1,20 @@
+{% extends 'administrateur/layout/layout_admin.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css_admin/indexPage.css')}}"
+{% endblock %}
+
+{% block body %}
+    <section>
+        <div class="left">
+            <h1>WELCOME MR {{app.getSession.get("nom_Complet_admin")}}</h1>
+            <div class="buttons">
+            <a href="">LISTE RESPONSABLE</a>
+            <a href="">LISTE CAISSIERE</a>
+            </div>
+        </div>
+         <div class="right">
+           <img src="{{asset('images/admin.png')}}" alt=""/>
+        </div>
+    </section>
+{% endblock %}

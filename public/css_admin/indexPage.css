@@ -1,0 +1,34 @@
+section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+
+section .left .buttons{
+    display:flex;
+}
+
+section .left h1{
+    text-transform:uppercase;
+}
+
+
+section .left .buttons a{
+    background:#1c69d9;
+    color:white;
+    font-weight:bold;
+    margin:0px 10px ;
+    border-radius:10px;
+    padding:0px 20px;
+    text-decoration:none;
+}
+
+section .right{
+    flex-basis:60%;
+    padding:20px 20px;
+}
+
+section .right img{
+    width:25rem;
+}

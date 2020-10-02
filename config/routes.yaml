@@ -67,3 +67,11 @@ insertCompte:
     controller: App\Controller\CompteController::insertCompte
     methods: POST
 
+
+
+
+#============= all for the admin ===============
+
+getIndexAdministrateur:
+    path: /indexAdmin
+    controller: App\Controller\AdminController::indexPage

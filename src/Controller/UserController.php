@@ -130,15 +130,35 @@ class UserController extends AbstractController
                if($data==null){
                    return $this->redirectToRoute("index");
                }else{
-                   $employe_administrateur = $this->employes->findOneBy([
-                        'id' => $data = $this->adminEntity->findOneBy([
-                            'login' => $login ,
-                            'password' => $password
-                        ])->getIdEmp()
-                   ])->getPrenom();
 
-                   var_dump($employe_administrateur);
-                   die;
+                //we get the id of the employee on the table administrateur
+                $id = $data = $this->adminEntity->findOneBy([
+                    'login' => $login ,
+                    'password' => $password
+                ])->getIdEmp()->getId();
+
+                //we get all the informations on the admin
+                   $Nom_employe_administrateur = $this->employes->findOneBy([
+                        'id' => $id
+                   ])->getPrenom()." ". $this->employes->findOneBy([
+                    'id' => $id
+               ])->getNom();
+
+               //get the id of the employee
+               $id_employee_admin = $this->employes->findOneBy([
+                'id' => $id
+                ])->getId();
+
+
+                   //======set all the sessions=========
+
+                   //session for all the admin's name
+                   $this->session->set("nom_Complet_admin",$Nom_employe_administrateur);
+
+                   //the session for the id of the admin
+                   $this->session->set("id_employee_admin",$id_employee_admin);
+
+                  return $this->redirectToRoute("getIndexAdministrateur");
                     
                }
             break;
