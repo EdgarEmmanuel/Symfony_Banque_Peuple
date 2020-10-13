@@ -1,6 +1,6 @@
 {% extends 'administrateur/layout/layout_admin.html.twig' %}
 
-{% block stylesheets %}
+{% block stylesheets %} 
     <link rel="stylesheet" href="{{ asset('css_admin/indexPage.css')}}"
 {% endblock %}
 
@@ -9,8 +9,8 @@
         <div class="left">
             <h1>WELCOME MR {{app.getSession.get("nom_Complet_admin")}}</h1>
             <div class="buttons">
-            <a href="">LISTE RESPONSABLE</a>
-            <a href="">LISTE CAISSIERE</a>
+            <a href="/listeResponsableCompte">LISTE RESPONSABLE</a>
+            <a href="/listeCaissiere">LISTE CAISSIERE</a>
             </div>
         </div>
          <div class="right">

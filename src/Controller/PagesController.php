@@ -95,6 +95,22 @@ class PagesController extends AbstractController
         return $this->render("comptes/addCompte.html.twig",$data);
     }
 
+    public function getPageInsertCaissiereEmploye(){
+        return $this->render("administrateur/pages/insert_caissiere.html.twig");
+    }
+
+
+    public function getPageInsertResponsableEmploye(){
+        return $this->render("administrateur/pages/insert_responsable.html.twig");
+    }
+
+    public function getPageListeResponsableCompte(){
+        return $this->render("administrateur/pages/liste_responsable.html.twig");
+    }
+
+    public function getPageListeCaissiere(){
+        return $this->render("administrateur/pages/liste_caissiere.html.twig");
+    }
 
 
 

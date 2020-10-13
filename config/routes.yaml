@@ -75,3 +75,23 @@ insertCompte:
 getIndexAdministrateur:
     path: /indexAdmin
     controller: App\Controller\AdminController::indexPage
+
+getPageInsertCaissiere:
+    path: /insertCaissiere
+    controller: App\Controller\PagesController::getPageInsertCaissiereEmploye
+
+getPageInsertResponsable:
+    path: /insertResponsableCompte
+    controller: App\Controller\PagesController::getPageInsertResponsableEmploye
+
+getPageListeResponsable:
+    path: /listeResponsableCompte
+    controller: App\Controller\PagesController::getPageListeResponsableCompte
+
+getPageListeCaissiere:
+    path: /listeCaissiere
+    controller: App\Controller\PagesController::getPageListeCaissiere
+
+deconnexionAdmin:
+    path: /deconnexAdmin
+    controller: App\Controller\AdminController::deconnexionAdmin
