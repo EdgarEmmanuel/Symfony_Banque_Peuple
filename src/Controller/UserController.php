@@ -137,6 +137,13 @@ class UserController extends AbstractController
                     'password' => $password
                 ])->getIdEmp()->getId();
 
+
+                //get the id of the agence 
+                $id_Agence = $data = $this->adminEntity->findOneBy([
+                    'login' => $login ,
+                    'password' => $password
+                ])->getIdEmp()->getIdAgence();
+
                 //we get all the informations on the admin
                    $Nom_employe_administrateur = $this->employes->findOneBy([
                         'id' => $id
@@ -151,12 +158,16 @@ class UserController extends AbstractController
 
 
                    //======set all the sessions=========
+                   $session = new Session();
 
                    //session for all the admin's name
-                   $this->session->set("nom_Complet_admin",$Nom_employe_administrateur);
+                   $session->set("nom_Complet_admin",$Nom_employe_administrateur);
 
                    //the session for the id of the admin
-                   $this->session->set("id_employee_admin",$id_employee_admin);
+                   $session->set("id_employee_admin",$id_employee_admin);
+
+                   //set the sesion for the id of the agence
+                   $session->set("id_agence",$id_Agence);
 
                   return $this->redirectToRoute("getIndexAdministrateur");
                     
