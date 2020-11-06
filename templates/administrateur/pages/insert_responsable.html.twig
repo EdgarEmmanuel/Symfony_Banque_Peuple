@@ -1,8 +1,13 @@
 {% extends "administrateur/layout/layout_admin.html.twig" %}
 
 
+ {% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css_admin/page_respo.css')}}" />
+ {% endblock %}
+
+
 {% block body %}
-    <main>
+<main>
     <form action="/post_insert_responsable"  method="post">
             <input type="text" name="nom_respo"  placeholder="nom"/>
             <input type="text" name="prenom_respo"  placeholder="prenom"/>
@@ -10,11 +15,8 @@
             <input type="text" name="telephone"  placeholder="telephone"/>
             <input type="text" name="email"  placeholder="email"/>
             <input type="text" name="login"  placeholder="login"/>
-            <input type="text" name="password"  placeholder="password"/>
-            <input type="number" name="cle_rib" id="cle_rib" min="1" max="97" placeholder="Cle RIB"/><br/>
-            <input type="number" name="montant" id="montant" min="10000" placeholder="montant" /> 
-            <input type="text" name="Name_entreprise" id="nom_Entreprise" placeholder="nom Entreprise" /><br/>
-            <input type="text" name="adresse_Entreprise" id="Adresse_Entreprise" placeholder="Adresse Entreprise" />
+            <input type="password" name="password"  placeholder="password"/>
+            <input type="password" name="password"  placeholder="password"/>
 
             {# the id of the agence in Hidden mode  #}
             <input type="text" name="numero_Agence" id="numeroAgence"  
@@ -25,7 +27,5 @@
         <button id="btn_create" name="btn" value="C_compte" >Valider</button>  <button>Annuler</button>
     </div>
     </form>
-   
-
 </main>
 {% endblock %}
