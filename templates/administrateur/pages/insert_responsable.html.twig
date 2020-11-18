@@ -10,13 +10,13 @@
 <main>
         <h1>INSERTION RESPONSABLE COMPTE </h1>
     <form class="container" action="/post_insert_responsable"  method="post">
-            <input type="text" class="form-control" name="nom_respo"  placeholder="nom"/><br/>
-            <input type="text" class="form-control" name="prenom_respo"  placeholder="prenom"/><br/>
-            <input type="text" class="form-control" name="adresse"  placeholder="adresse"/><br/>
-            <input type="text" class="form-control" name="telephone"  placeholder="telephone"/><br/>
-            <input type="text" class="form-control" name="email"  placeholder="email"/><br/>
-            <input type="text" class="form-control" name="login"  placeholder="login"/><br/>
-            <input type="password" class="form-control" name="password"  placeholder="password"/><br/>
+            <input type="text" class="form-control" name="nom_respo"  placeholder="nom" required/><br/>
+            <input type="text" class="form-control" name="prenom_respo"  placeholder="prenom" required/><br/>
+            <input type="text" class="form-control" name="adresse"  placeholder="adresse" required/><br/>
+            <input type="text" class="form-control" name="telephone"  placeholder="telephone" required/><br/>
+            <input type="text" class="form-control" name="email"  placeholder="email" required/><br/>
+            <input type="text" class="form-control" name="login"  placeholder="login" required/><br/>
+            <input type="password" class="form-control" name="password"  placeholder="password" required/><br/>
 
             {# the id of the agence in Hidden mode  #}
             <input type="text" name="numero_Agence" id="numeroAgence"  
@@ -25,8 +25,8 @@
             
 
            <div class="button_for_s" id="button">
-        <button id="btn_create" name="btn" value="C_compte" >Valider</button> 
-         <button type="reset">Annuler</button>
+        <button type="submit" class="btn btn-primary" >Valider</button> 
+         <button type="reset" class="btn btn-danger">Annuler</button>
     </div>
     </form>
 </main>

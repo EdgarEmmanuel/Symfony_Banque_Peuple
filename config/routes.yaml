@@ -95,3 +95,7 @@ getPageListeCaissiere:
 deconnexionAdmin:
     path: /deconnexAdmin
     controller: App\Controller\AdminController::deconnexionAdmin
+
+insertRespoPost:
+    path: /post_insert_responsable
+    controller: App\Controller\AdminController::insertResponsable
